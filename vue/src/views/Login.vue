@@ -108,12 +108,16 @@ export default {
   width: 100%;
   height: 100vh;
   background: url('../img/bg2.svg');
-  background-size: contain;
+  background-size: cover;
   overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .login-page {
   border-radius: 5px;
-  margin: 300px auto;
   width: 420px;
   padding: 35px 35px 15px;
   background: #fff;
